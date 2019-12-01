@@ -1,6 +1,7 @@
 """
 -----------
-Problem
+PROBLEM
+https://projecteuler.net/problem=24
 -----------
 A permutation is an ordered arrangement of objects. For example, 3124 is one possible permutation
 of the digits 1, 2, 3 and 4. If all of the permutations are listed numerically or alphabetically,
@@ -11,6 +12,7 @@ What is the millionth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 
 
 -----------
 SOLUTION
+https://tinyurl.com/v7ee4vh
 -----------
 The best approach, given the permutation nature of the problem, is a recursive algorithm
 to compute all possible combinations of our given alphanumerics while maintaining order.
@@ -32,8 +34,6 @@ Output: Lexicographic permutation of input list
 Recursively determines all combinations of given numbers/letters in numerical/alphabetic order.
 This provides a general lexicographic permutation calculator.
 """
-
-
 def lexi_perm_calc(vals):
     lexicon = []
     "Base Case"
